@@ -5,3 +5,7 @@ function checkKeyPressed(event) {
         alert("You pressed 'enter'");
     }
 }
+
+if (window.location.href==="https://jamespear.github.io/") {
+    window.location.href = "https://cal-cs184-student.github.io/hw-webpages-sp24-jamespear/"; 
+}
